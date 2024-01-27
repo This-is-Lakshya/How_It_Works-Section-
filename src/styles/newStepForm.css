@@ -1,0 +1,104 @@
+.newStepForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form{
+    background-color: #d7d0f8;
+    height: 35vh;
+    width: 15vw;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    color: #434343;
+}
+
+.Form h2{
+    margin: 2% 10% 8% 10%;
+}
+
+.selectComp {
+    margin-bottom: 1rem;
+}
+
+.select{
+    color: grey;
+}
+
+.inputDesc{
+    outline: none;
+    border-radius: 0.2rem;
+    border: none;
+    width: 96%;
+    height: 4vh;
+    padding: 0 0.2rem;
+}
+
+.addBtn{
+    margin: 1.5rem 40%;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(21, 210, 21);
+    color: white;
+}
+
+.addBtn:hover{
+    background-color: rgb(19, 173, 19);
+}
+
+
+/* Media-Query (for Resposive desgin) */
+
+@media only screen and (max-width: 1025px) {
+
+    .newStepForm{
+        margin-bottom: 1rem;
+    }
+
+    .Form{
+        width: 23%;
+        height: 28%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .Form h2{
+        font-size: 1.3rem;
+    }
+
+    .Form{
+        width: 28%;
+        height: 28%;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .Form{
+        width: 45%;
+        height: 28%;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+
+    .Form{
+        width: 55%;
+        height: 28%;
+    }
+
+}
+
+@media only screen and (max-width: 321px) {
+
+    .Form{
+        width: 60%;
+        height: 28%;
+    }
+
+}
