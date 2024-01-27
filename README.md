@@ -1,8 +1,6 @@
 
 # How It Works (SECTION)
 
-## Live Hosted Link: https://howitworks-kohl.vercel.app/
-
 ## Objective:
 To create a responsive react-app page, with the "How It Works Section included. Where the STEPs are add/removed dynamically.
 
