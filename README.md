@@ -1,8 +1,7 @@
 
 # How It Works (SECTION)
 
-## Live Hosted Link:
-### Page:  
+## Live Hosted Link: https://howitworks-kohl.vercel.app/
 
 ## Objective:
 To create a responsive react-app page, with the "How It Works Section included. Where the STEPs are add/removed dynamically.
@@ -47,7 +46,7 @@ This will run the app in development mode. Open http://localhost:3000 to view it
 
 
 ## Building for production
-    To create a production build, run:
+To create a production build, run:
 
 ```bash
 npm run build
